@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MH Movie Database</string>
+    <string name="action_settings">Settings</string>
+    <string name="current_movie">No movie</string>
+</resources>
