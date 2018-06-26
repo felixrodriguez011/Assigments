@@ -32,4 +32,42 @@
         android:layout_marginStart="8dp"
         android:onClick="signInDialog"
         android:text="Username Dialog" />
+
+    <EditText
+        android:id="@+id/reminderText"
+        android:layout_width="157dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Add Note"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:onClick="addReminder"
+        android:text="Add Note" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="177dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Thing's name"
+        android:inputType="textPersonName"/>
+
+    <EditText
+        android:id="@+id/attributeText"
+        android:layout_width="179dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="Thing's attribute"
+        android:inputType="textPersonName"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="179dp"
+        android:layout_height="wrap_content"
+        android:onClick="addThing"
+        android:text="Add Thing" />
 </LinearLayout>
